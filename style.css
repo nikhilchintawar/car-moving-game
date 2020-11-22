@@ -1,0 +1,35 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    padding: 1rem;
+}
+
+button{
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.startButton{
+    background-color: green;
+    color: #ffffff;
+}
+
+.startButton:disabled{
+    background-color: #cccccc;
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
