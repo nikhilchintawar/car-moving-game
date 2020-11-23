@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Yrsa&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: 'Yrsa', serif;
+    font-size: 1.5rem;
+}
+
 h1{
     display: flex;
     justify-content: center;
